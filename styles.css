@@ -1,0 +1,4 @@
+/* ===== PREMIUM DETAILS ===== */
+    details summary::-webkit-details-marker { display:none; }
+    .grid-bg { background-image: linear-gradient(to right, rgba(212,212,216,.18) 1px, transparent 1px), linear-gradient(to bottom, rgba(212,212,216,.18) 1px, transparent 1px); background-size: 26px 26px; }
+    .sig-canvas { touch-action: none; }
