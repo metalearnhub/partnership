@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- BASE:START (managed by Coding Agent — do not edit) -->
+<base href="/partnership/">
+<!-- BASE:END -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  
+
+<!-- SEO Meta Tags -->
+<title>MARCOR Founding Creator Program</title>
+<meta name="description" content="Apply for complimentary MARCOR access, founder guidance, and protected founding partner pricing in exchange for an honest public review, tutorial, walkthrough, or real use case." />
+<meta name="keywords" content="MARCOR Founding Creator Program" />
+<meta property="og:title" content="MARCOR Founding Creator Program" />
+<meta property="og:description" content="Apply for complimentary MARCOR access, founder guidance, and protected founding partner pricing in exchange for an honest public review, tutorial, walkthrough, or real use case." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="MARCOR Founding Creator Program" />
+<meta name="twitter:description" content="Apply for complimentary MARCOR access, founder guidance, and protected founding partner pricing in exchange for an honest public review, tutorial, walkthrough, or real use case." />
+<!-- End SEO Meta Tags -->
+<script data-lp-token-hydrate>
+(function(){try{
+  var slug="lp-mrkih07q-izolz";
+  var SK='lp_access_'+slug;
+  var map={access_token:'lp_pw_',allowlist_access_token:'lp_al_',pin_access_token:'lp_pin_',paywall_access_token:'lp_paid_'};
+  var u=new URL(location.href);var found=null;var changed=false;
+  Object.keys(map).forEach(function(p){var v=u.searchParams.get(p);if(v){found=v;try{localStorage.setItem(map[p]+slug,v);}catch(e){}u.searchParams.delete(p);changed=true;}});
+  if(found){try{sessionStorage.setItem(SK,found);}catch(e){}}
+  else{try{if(!sessionStorage.getItem(SK)){var t=localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug);if(t)sessionStorage.setItem(SK,t);}}catch(e){}}
+  if(changed){try{history.replaceState(null,'',u.toString());}catch(e){}}
+  function getTok(){try{return sessionStorage.getItem(SK)||localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug);}catch(e){return null;}}
+  function needsToken(url,method){if(!url)return false;var s=String(url);var m=(method||'GET').toUpperCase();var isSheetWrite=(m==='POST'||m==='PATCH'||m==='PUT'||m==='DELETE')&&/\/sheet-rows(\/|$|\?)/.test(s);var isSheetRead=/\/sheet-data(\/|$|\?)/.test(s);var isLlm=/\/api\/landing-pages\/public\/[^/]+\/(llm|llm-config)(\/|$|\?)/.test(s);return isSheetWrite||isSheetRead||isLlm;}
+  if(window.fetch){var _f=window.fetch;window.fetch=function(input,init){try{var url=typeof input==='string'?input:(input&&input.url)||'';var method=(init&&init.method)||(input&&input.method)||'GET';if(needsToken(url,method)){var tok=getTok();if(tok){init=init||{};var h=new Headers(init.headers||(typeof input!=='string'?input.headers:undefined)||{});if(!h.has('X-Landing-Page-Token'))h.set('X-Landing-Page-Token',tok);init.headers=h;}}}catch(e){}return _f.call(this,input,init);};}
+  if(window.XMLHttpRequest){var _o=XMLHttpRequest.prototype.open;var _s=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this.__lpM=m;this.__lpU=u;return _o.apply(this,arguments);};XMLHttpRequest.prototype.send=function(){try{if(needsToken(this.__lpU,this.__lpM)){var tok=getTok();if(tok)this.setRequestHeader('X-Landing-Page-Token',tok);}}catch(e){}return _s.apply(this,arguments);};}
+}catch(e){}})();
+</script>
+
+<script data-field-replace>
+(function(){
+  var params=new URLSearchParams(window.location.search);
+  var fields={};
+  var paramMap={
+    'first_name':'firstName','last_name':'lastName','full_name':'fullName',
+    'email':'email','phone':'phone','company':'company',
+    'city':'city','state':'state','country':'country'
+  };
+  var skipTags={'SCRIPT':1,'STYLE':1,'NOSCRIPT':1,'TEXTAREA':1,'CODE':1,'PRE':1};
+  var hasUrlFields=false;
+  for(var p in paramMap){
+    var v=params.get(p);
+    if(v){fields[paramMap[p]]=v;hasUrlFields=true;}
+  }
+  var contactId=params.get('contact_id');
+  function esc(s){
+    if(!s)return s;
+    var d=document.createElement('div');
+    d.appendChild(document.createTextNode(s));
+    return d.innerHTML;
+  }
+  function doReplace(data){
+    var r={};
+    r['{{full_name}}']=esc(((data.firstName||'')+' '+(data.lastName||'')).trim()||((data.fullName||data.name)||''));
+    r['{{first_name}}']=esc(data.firstName||(data.name?data.name.split(' ')[0]:'')||'');
+    r['{{last_name}}']=esc(data.lastName||(data.name&&data.name.indexOf(' ')>-1?data.name.substring(data.name.indexOf(' ')+1):'')||'');
+    r['{{email}}']=esc(data.email||'');
+    r['{{phone}}']=esc(data.phone||'');
+    r['{{company}}']=esc(data.company||'');
+    r['{{city}}']=esc(data.city||'');
+    r['{{state}}']=esc(data.state||'');
+    r['{{country}}']=esc(data.country||'');
+    r['{{date}}']=new Date().toLocaleDateString();
+    r['{{time}}']=new Date().toLocaleTimeString();
+    r['{{location}}']=[data.city,data.state,data.country].filter(Boolean).join(', ');
+    r['{{tracking_id}}']=esc(data.trackingId||'');
+    r['{{lastClickedProduct}}']=esc(data.lastClickedProduct||'');
+    r['{{lastProductClickDate}}']=esc(data.lastProductClickDate||'');
+    r['{{lastClickedProductPrice}}']=esc(data.lastClickedProductPrice||'');
+    r['{{lastClickedProductURL}}']=esc(data.lastClickedProductURL||'');
+    r['{{productsClickedCount}}']=esc(data.productsClickedCount||'0');
+    r['{{ip_address}}']=esc(data.ipAddress||'');
+    r['{{ip}}']=esc(data.ipAddress||'');
+    if(data.customFields){
+      for(var k in data.customFields){
+        r['{{'+k+'}}']=esc(String(data.customFields[k]||''));
+      }
+    }
+    params.forEach(function(v,k){
+      if(!paramMap[k]&&k!=='contact_id'&&k!=='page_id'&&k.indexOf('utm_')!==0){
+        r['{{'+k+'}}']=esc(v);
+      }
+    });
+    var hasValues=false;
+    for(var key in r){if(r[key]){hasValues=true;break;}}
+    if(!hasValues)return;
+    var walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        var p=n.parentNode;
+        if(p&&skipTags[p.nodeName])return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var node;
+    while(node=walker.nextNode()){
+      var txt=node.nodeValue;
+      if(txt&&txt.indexOf('{{')>-1){
+        var changed=txt;
+        for(var ph in r){
+          if(r[ph]&&changed.indexOf(ph)>-1){
+            changed=changed.split(ph).join(r[ph]);
+          }
+        }
+        if(changed!==txt)node.nodeValue=changed;
+      }
+    }
+    var attrs=['value','placeholder','content','alt','title'];
+    attrs.forEach(function(attr){
+      var els=document.querySelectorAll('['+attr+'*="{{"]');
+      for(var i=0;i<els.length;i++){
+        var tag=els[i].tagName;
+        if(skipTags[tag])continue;
+        var val=els[i].getAttribute(attr);
+        if(val){
+          var nv=val;
+          for(var ph in r){
+            if(r[ph]&&nv.indexOf(ph)>-1){
+              nv=nv.split(ph).join(r[ph]);
+            }
+          }
+          if(nv!==val)els[i].setAttribute(attr,nv);
+        }
+      }
+    });
+  }
+  function run(){
+    if(contactId){
+      var xhr=new XMLHttpRequest();
+      xhr.open('GET','https://studio.marcor.app/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=5515');
+      xhr.onload=function(){
+        if(xhr.status===200){
+          try{
+            var resp=JSON.parse(xhr.responseText);
+            if(resp.success&&resp.contact){
+              var merged=resp.contact;
+              for(var k in fields){merged[k]=fields[k];}
+              doReplace(merged);
+              return;
+            }
+          }catch(e){}
+        }
+        if(hasUrlFields)doReplace(fields);
+      };
+      xhr.onerror=function(){if(hasUrlFields)doReplace(fields);};
+      xhr.send();
+    }else if(hasUrlFields){
+      doReplace(fields);
+    }
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}
+  else{run();}
+})();
+</script>
+<script data-payment>
+(function(){
+  var slug='aan3CGJB';
+  var apiBase='https://studio.marcor.app';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  function findPhone(){var ids=['phone','phoneNumber','phone-number','tel','telephone','mobile','mobileNumber','cell','contact-phone','buyer-phone'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.trim())return el.value.trim();}var inputs=document.querySelectorAll('input[type="tel"],input[name*="phone"],input[name*="tel"],input[name*="mobile"],input[placeholder*="phone"],input[placeholder*="Phone"]');for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.trim())return inputs[j].value.trim();}return '';}
+  var __realProcessPayment=function(a,b,c,d,e){
+    var amountCents,email,productName,productDescription,customerName,quantity;
+    if(a&&typeof a==='object'){
+      amountCents=a.amountCents;email=a.email;productName=a.productName;
+      productDescription=a.productDescription||'';customerName=a.name||'';quantity=a.quantity||1;
+    }else{
+      amountCents=typeof a==='number'?a:0;productName=typeof b==='string'?b:'';
+      productDescription=typeof c==='string'?c:'';email='';customerName='';quantity=1;
+    }
+    if(!email)email=findEmail();
+    if(!customerName)customerName=findName();
+    var phone=findPhone();
+    if(!productName){alert('Product name is required.');return Promise.reject('no_product_name');}
+    if(!amountCents||amountCents<100){alert('Amount must be at least $1.00');return Promise.reject('invalid_amount');}
+    if(!email){alert('Please enter your email address.');return Promise.reject('no_email');}
+    var successBase=window.location.href.split('?')[0];
+    var __pLoc=(document.documentElement.lang||navigator.language||'en');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/payment/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,name:customerName,phone:phone||'',amountCents:amountCents,productName:productName,productDescription:productDescription,quantity:quantity,locale:__pLoc,successUrl:successBase+'?payment=success&product='+encodeURIComponent(productName)+'&session_id={CHECKOUT_SESSION_ID}',cancelUrl:successBase+'?payment=cancelled'})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process payment');throw new Error(d.error);}
+    });
+  };
+  Object.defineProperty(window,'__processPayment',{value:__realProcessPayment,writable:false,configurable:false});
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('payment')==='success'){
+      var sidP=urlParams.get('session_id');
+      if(sidP){try{fetch(apiBase+'/api/landing-pages/public/'+slug+'/checkout/confirm',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sessionId:sidP})}).catch(function(){});}catch(e){}}
+      var pName=urlParams.get('product')||'your item';
+      var overlay=document.createElement('div');overlay.id='payment-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||('Thank you for purchasing '+pName+'.');
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Payment Successful!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-pay-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var pBtn=document.getElementById('lp-pay-success-btn');
+      if(pBtn){pBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>
+<script data-donation>
+(function(){
+  var slug='aan3CGJB';
+  var apiBase='https://studio.marcor.app';
+  var currency='USD';
+  var minAmt=100;var maxAmt=1000000;
+  var thankYouMsg='Thank you for your generous donation!';var successSubtext='Your donation has been processed successfully.';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function getLang(){var l=(document.documentElement.lang||navigator.language||'en').toLowerCase();return l.split('-')[0];}
+  function getLocale(){return (document.documentElement.lang||navigator.language||'en');}
+  var I18N={en:{min:'Minimum is ',max:'Maximum is ',emailPrompt:'Enter your email for the receipt:',emailRequired:'An email address is required to complete checkout.',failed:'Failed to process donation'},fr:{min:'Le minimum est ',max:'Le maximum est ',emailPrompt:'Entrez votre adresse e-mail pour le reçu :',emailRequired:'Une adresse e-mail est requise pour finaliser le paiement.',failed:'Échec du traitement du don'},es:{min:'El mínimo es ',max:'El máximo es ',emailPrompt:'Introduce tu correo electrónico para el recibo:',emailRequired:'Se requiere una dirección de correo electrónico para completar el pago.',failed:'No se pudo procesar la donación'},pt:{min:'O mínimo é ',max:'O máximo é ',emailPrompt:'Insira seu e-mail para o recibo:',emailRequired:'Um endereço de e-mail é necessário para concluir o pagamento.',failed:'Falha ao processar a doação'},de:{min:'Mindestbetrag ist ',max:'Höchstbetrag ist ',emailPrompt:'Geben Sie Ihre E-Mail-Adresse für die Quittung ein:',emailRequired:'Eine E-Mail-Adresse ist erforderlich, um den Checkout abzuschließen.',failed:'Spende konnte nicht verarbeitet werden'},it:{min:'Il minimo è ',max:'Il massimo è ',emailPrompt:'Inserisci la tua email per la ricevuta:',emailRequired:"È richiesto un indirizzo email per completare il pagamento.",failed:'Impossibile elaborare la donazione'}};
+  function t(k){var L=getLang();return (I18N[L]&&I18N[L][k])||I18N.en[k];}
+  function fmtD(c){try{return new Intl.NumberFormat(getLocale(),{style:'currency',currency:currency}).format(c/100);}catch(e){return new Intl.NumberFormat('en-US',{style:'currency',currency:currency}).format(c/100);}}
+  window.__donationConfig={currency:currency,presets:[25,50,100,250],minAmount:100/100,maxAmount:1000000/100,formatAmount:fmtD,buttonColor:'#4f46e5',buttonText:'Donate Now',thankYouMessage:'Thank you for your generous donation!'};
+  function findDonEmail2(){var ids=['email','emailAddress','buyer-email','buyerEmail','donor-email','donorEmail','user-email','userEmail','contact-email'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.indexOf('@')>-1)return el.value.trim();}var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.indexOf('@')>-1)return inputs[j].value.trim();}return '';}
+  function findDonName2(){var ids=['name','fullName','full-name','donor-name','donorName','customer-name','user-name'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"])');for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}return '';}
+  function findDonPhone2(){var ids=['phone','phoneNumber','phone-number','tel','telephone','mobile','mobileNumber','cell','contact-phone','buyer-phone'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.trim())return el.value.trim();}var inputs=document.querySelectorAll('input[type="tel"],input[name*="phone"],input[name*="tel"],input[name*="mobile"],input[placeholder*="phone"],input[placeholder*="Phone"]');for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.trim())return inputs[j].value.trim();}return '';}
+  window.__processDonation=function(a,b,c,d){
+    var amountCents,email='',name='',donorMessage='',productName='',productDescription='',quantity=1;
+    if(a&&typeof a==='object'){
+      amountCents=a.amountCents||(a.amount?Math.round(Number(a.amount)*100):0);
+      email=a.email||'';
+      productName=a.productName||a.label||'';
+      productDescription=a.productDescription||a.description||'';
+      name=a.name||a.donorName||'';
+      donorMessage=a.message||a.donorMessage||'';
+      quantity=a.quantity&&parseInt(a.quantity,10)>0?parseInt(a.quantity,10):1;
+    }else{
+      amountCents=typeof a==='number'?a:(parseInt(a,10)||0);
+      var rest=[b,c,d];var nonEmail=[];
+      for(var i=0;i<rest.length;i++){var v=rest[i];if(typeof v==='string'&&v){if(!email&&v.indexOf('@')>-1&&/^[^s@]+@[^s@]+.[^s@]+$/.test(v.trim())){email=v.trim();}else{nonEmail.push(v);}}}
+      name=nonEmail[0]||'';donorMessage=nonEmail[1]||'';
+    }
+    if(!email)email=findDonEmail2();
+    if(!name)name=findDonName2();
+    var donorPhone=findDonPhone2();
+    if(!amountCents||amountCents<minAmt){alert(t('min')+fmtD(minAmt));return Promise.reject('below_min');}
+    if(amountCents>maxAmt){alert(t('max')+fmtD(maxAmt));return Promise.reject('above_max');}
+    if(!email){var p=window.prompt(t('emailPrompt'),'');if(p&&p.indexOf('@')>-1){email=p.trim();}else{alert(t('emailRequired'));return;}}
+    var successBase=window.location.href.split('?')[0];
+    fetch(apiBase+'/api/landing-pages/public/'+slug+'/donation/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,name:name||'',phone:donorPhone||'',amountCents:amountCents,message:donorMessage||'',productName:productName||'',productDescription:productDescription||'',quantity:quantity,locale:getLocale(),successUrl:successBase+'?donation=success&email='+encodeURIComponent(email)+'&session_id={CHECKOUT_SESSION_ID}',cancelUrl:successBase+'?donation=cancelled'})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||t('failed'));}
+    }).catch(function(){alert(t('failed'));});
+  };
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('donation')==='success'){
+      var sidD=urlParams.get('session_id');
+      if(sidD){try{fetch(apiBase+'/api/landing-pages/public/'+slug+'/checkout/confirm',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sessionId:sidD})}).catch(function(){});}catch(e){}}
+      var overlay=document.createElement('div');overlay.id='donation-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">'+esc(thankYouMsg)+'</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(successSubtext)+'</p><button id="lp-don-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var dBtn=document.getElementById('lp-don-success-btn');
+      if(dBtn){dBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>
+<script data-cart>
+(function(){
+  var slug='aan3CGJB';
+  var apiBase='https://studio.marcor.app';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findCartEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findCartName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  function findCartPhone(){var ids=['phone','phoneNumber','phone-number','tel','telephone','mobile','mobileNumber','cell','contact-phone','buyer-phone'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.trim())return el.value.trim();}var inputs=document.querySelectorAll('input[type="tel"],input[name*="phone"],input[name*="tel"],input[name*="mobile"],input[placeholder*="phone"],input[placeholder*="Phone"]');for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.trim())return inputs[j].value.trim();}return '';}
+  var __realCart=function(arg){
+    var items, email='', customerName='', successUrl, cancelUrl, currency;
+    if(Array.isArray(arg)){items=arg;}
+    else if(arg&&typeof arg==='object'){
+      items=arg.items;email=arg.email||'';customerName=arg.name||arg.customerName||'';
+      successUrl=arg.successUrl;cancelUrl=arg.cancelUrl;currency=arg.currency;
+    }
+    if(!Array.isArray(items)||items.length===0){alert('No items in cart.');return Promise.reject('no_items');}
+    var cleanItems=[];var totalCents=0;
+    for(var i=0;i<items.length;i++){
+      var it=items[i];if(!it||typeof it!=='object'){alert('Invalid item at position '+i);return Promise.reject('bad_item');}
+      var nm=typeof it.name==='string'?it.name.trim():'';
+      if(!nm){alert('Item '+(i+1)+' is missing a name.');return Promise.reject('no_name');}
+      var amt=typeof it.amountCents==='number'?it.amountCents:(typeof it.amount==='number'?Math.round(it.amount*100):NaN);
+      if(!isFinite(amt)||amt<1){alert('Item "'+nm+'" needs a valid amount in cents.');return Promise.reject('bad_amount');}
+      var qty=(typeof it.quantity==='number'&&it.quantity>0)?Math.floor(it.quantity):1;
+      cleanItems.push({name:nm,description:it.description||'',amountCents:amt,quantity:qty});
+      totalCents+=amt*qty;
+    }
+    if(totalCents<50){alert('Cart total must be at least $0.50');return Promise.reject('total_too_low');}
+    if(!email)email=findCartEmail();
+    if(!customerName)customerName=findCartName();
+    var cartPhone=findCartPhone();
+    if(!email){var p=window.prompt('Enter your email for the receipt:','');if(p&&p.indexOf('@')>-1){email=p.trim();}else{alert('An email address is required to complete checkout.');return Promise.reject('no_email');}}
+    var successBase=window.location.href.split('?')[0];
+    var body={email:email,name:customerName,items:cleanItems,locale:(document.documentElement.lang||navigator.language||'en')};
+    if(currency)body.currency=currency;
+    if(cartPhone)body.phone=cartPhone;
+    body.successUrl=successUrl||(successBase+'?cart=success&email='+encodeURIComponent(email)+'&session_id={CHECKOUT_SESSION_ID}');
+    body.cancelUrl=cancelUrl||(successBase+'?cart=cancelled');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/cart/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(body)
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process checkout');throw new Error(d.error);}
+    });
+  };
+  try{Object.defineProperty(window,'__processCart',{value:__realCart,writable:false,configurable:false});}catch(e){window.__processCart=__realCart;}
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('cart')==='success'){
+      var sidC=urlParams.get('session_id');
+      if(sidC){try{fetch(apiBase+'/api/landing-pages/public/'+slug+'/checkout/confirm',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sessionId:sidC})}).catch(function(){});}catch(e){}}
+      if(document.getElementById('payment-success-overlay')||document.getElementById('donation-success-overlay')||document.getElementById('cart-success-overlay'))return;
+      var overlay=document.createElement('div');overlay.id='cart-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||'Thank you for your order.';
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Order Confirmed!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-cart-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var cBtn=document.getElementById('lp-cart-success-btn');
+      if(cBtn){cBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>
+<script src="https://studio.marcor.app/widget.js" data-widget="41289223" async></script>  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-zinc-900 font-body antialiased">
+  <!-- ============================================================================ -->
+  <!-- NAVBAR: Sticky brand header with program label and quick action              -->
+  <!-- Notes: The Apply button jumps to the application form below                  -->
+  <!-- ============================================================================ -->
+  <nav data-section="navbar" class="sticky top-0 z-50 border-b border-bordergray/80 bg-nearblack/95 backdrop-blur">
+    <div class="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
+      <a href="#top" class="flex items-center gap-3 min-w-0">
+        <img src="https://paymegpt.com/objects/public/white-label-logos/69/1776681317645_9362.jpg" alt="MARCOR official logo" class="h-9 w-auto rounded-sm bg-white p-1" />
+        <div class="min-w-0">
+          <div class="font-heading text-white text-sm sm:text-base font-semibold tracking-wide">MARCOR</div>
+          <div class="text-[11px] uppercase tracking-[0.28em] text-gold/90">Founding Creator Program</div>
+        </div>
+      </a>
+      <div class="hidden md:flex items-center gap-3">
+        <a href="#agreementDisclosure" class="text-sm text-zinc-300 hover:text-white">Read Agreement</a>
+        <button data-scroll-to-form class="rounded-full bg-gold px-5 py-2.5 text-sm font-semibold text-nearblack shadow-premium hover:bg-deepgold transition">Apply</button>
+      </div>
+      <button data-scroll-to-form class="md:hidden rounded-full bg-gold px-4 py-2 text-sm font-semibold text-nearblack">Apply</button>
+    </div>
+  </nav>
+
+  <main id="top">
+    <!-- ======================================================================== -->
+    <!-- HERO: Premium authority-style introduction                                -->
+    <!-- Notes: Short, sharp copy with a right-side offer card                     -->
+    <!-- ======================================================================== -->
+    <section data-section="hero" class="bg-nearblack text-white border-b border-bordergray/20">
+      <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
+        <div class="grid gap-10 lg:grid-cols-2 lg:items-center">
+          <div class="space-y-6">
+            <p class="inline-flex items-center rounded-full border border-gold/30 bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.26em] text-gold">Limited Founding Collaboration</p>
+            <div class="space-y-4">
+              <h1 class="font-heading text-4xl leading-[1.05] sm:text-5xl xl:text-6xl font-bold max-w-3xl">Build With MARCOR. Share Your Real Experience.</h1>
+              <p class="max-w-2xl text-base sm:text-lg text-zinc-300 leading-7">Apply for complimentary MARCOR access, founder guidance, and protected founding partner pricing in exchange for one honest public review, tutorial, walkthrough, or real use case.</p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <button data-scroll-to-form class="rounded-full bg-gold px-6 py-3.5 font-semibold text-nearblack shadow-premium hover:bg-deepgold transition">Apply for Founder Review</button>
+              <a href="#agreementDisclosure" class="rounded-full border border-white/15 px-6 py-3.5 font-semibold text-white hover:bg-white/5 transition text-center">Read the Agreement</a>
+            </div>
+            <p class="text-sm text-zinc-400">No commission. No paid endorsement. Honest use, honest feedback, real collaboration.</p>
+          </div>
+          <div class="lg:justify-self-end w-full max-w-xl">
+            <div class="rounded-[14px] border border-bordergray/15 bg-charcoal shadow-premium overflow-hidden">
+              <div class="border-b border-bordergray/15 px-5 py-4">
+                <div class="text-xs uppercase tracking-[0.28em] text-gold">Approved Founder Offer</div>
+                <div class="mt-1 text-xl font-heading font-semibold text-white">Protected access terms for selected creators</div>
+              </div>
+              <div class="grid-bg p-5 space-y-3">
+                <div class="rounded-xl border border-bordergray/15 bg-white/5 p-4">
+                  <div class="text-sm text-zinc-300">Month 1 Free After Approval</div>
+                </div>
+                <div class="rounded-xl border border-bordergray/15 bg-white/5 p-4">
+                  <div class="text-sm text-zinc-300">Conditional Month 2 Free</div>
+                </div>
+                <div class="rounded-xl border border-bordergray/15 bg-white/5 p-4">
+                  <div class="text-sm text-zinc-300"><span class="text-gold font-semibold">$49/month</span> Founding Rate</div>
+                </div>
+                <div class="rounded-xl border border-bordergray/15 bg-white/5 p-4">
+                  <div class="text-sm text-zinc-300">Weekly Founder Guidance After Complimentary Period</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================== -->
+    <!-- COMPARISON: Public plan versus approved founding creator offer           -->
+    <!-- Notes: Explains why public signup may still display $79/month            -->
+    <!-- ======================================================================== -->
+    <section data-section="comparison" class="bg-softgray">
+      <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div class="grid gap-5 lg:grid-cols-2">
+          <article class="rounded-[14px] border border-bordergray bg-white p-6 shadow-sm">
+            <h2 class="font-heading text-2xl font-semibold">Public Plan</h2>
+            <p class="mt-3 text-bodygray leading-7">The public signup page may still show <span class="font-semibold text-zinc-900">$79/month</span> with 7-day access at checkout until it is manually adjusted.</p>
+          </article>
+          <article class="rounded-[14px] border border-gold/40 bg-nearblack p-6 text-white shadow-sm">
+            <h2 class="font-heading text-2xl font-semibold text-gold">Approved Founding Creator Offer</h2>
+            <p class="mt-3 text-zinc-300 leading-7">After founder approval, Month 1 is free, Month 2 may be free after successful first-month content and feedback, and the continuing founding partner rate is locked at <span class="font-semibold text-gold">$49/month</span> instead of $79/month.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================== -->
+    <!-- WHO IT'S FOR: Audience fit section                                       -->
+    <!-- ======================================================================== -->
+        <section data-section="who-it-is-for" class="bg-white">
+      <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+          <h2 class="font-heading text-3xl font-semibold">Who This Is For</h2>
+          <p class="mt-3 text-bodygray leading-7">This program is designed for creators who can share a real-world MARCOR experience in a credible, practical way.</p>
+        </div>
+                  <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div class="bg-charcoal rounded-xl px-5 py-3 shadow-premium flex items-center justify-center">
+              <span class="text-white font-semibold font-heading text-center">Creators</span>
+            </div>
+            <div class="bg-charcoal rounded-xl px-5 py-3 shadow-premium flex items-center justify-center">
+              <span class="text-white font-semibold font-heading text-center">Freelancers</span>
+            </div>
+            <div class="bg-charcoal rounded-xl px-5 py-3 shadow-premium flex items-center justify-center">
+              <span class="text-white font-semibold font-heading text-center">Agencies</span>
+            </div>
+            <div class="bg-charcoal rounded-xl px-5 py-3 shadow-premium flex items-center justify-center">
+              <span class="text-white font-semibold font-heading text-center">Consultants</span>
+            </div>
+            <div class="bg-charcoal rounded-xl px-5 py-3 shadow-premium flex items-center justify-center">
+              <span class="text-white font-semibold font-heading text-center">Educators</span>
+            </div>
+            <div class="bg-charcoal rounded-xl px-5 py-3 shadow-premium flex items-center justify-center">
+              <span class="text-white font-semibold font-heading text-center">Developers</span>
+            </div>
+            <div class="bg-charcoal rounded-xl px-5 py-3 shadow-premium flex items-center justify-center">
+              <span class="text-white font-semibold font-heading text-center">Automation Builders</span>
+            </div>
+            <div class="bg-charcoal rounded-xl px-5 py-3 shadow-premium flex items-center justify-center">
+              <span class="text-white font-semibold font-heading text-center">Influencers</span>
+            </div>
+            <div class="bg-charcoal rounded-xl px-5 py-3 shadow-premium flex items-center justify-center">
+              <span class="text-white font-semibold font-heading text-center">Service Providers</span>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================== -->
+    <!-- BENEFITS: Numbered premium cards                                         -->
+    <!-- ======================================================================== -->
+    <section data-section="benefits" class="bg-softgray">
+      <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+          <h2 class="font-heading text-3xl font-semibold">Founding Partner Benefits</h2>
+          <p class="mt-3 text-bodygray leading-7">Selected applicants receive a structured collaboration path with clearly defined creator-first incentives.</p>
+        </div>
+        <div class="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          <div class="rounded-[14px] border border-bordergray bg-white p-5 shadow-sm"><div class="text-gold font-bold text-lg">01</div><p class="mt-2 font-semibold">Month 1 free after approval</p></div>
+          <div class="rounded-[14px] border border-bordergray bg-white p-5 shadow-sm"><div class="text-gold font-bold text-lg">02</div><p class="mt-2 font-semibold">Month 2 free after requirements are completed and approved</p></div>
+          <div class="rounded-[14px] border border-bordergray bg-white p-5 shadow-sm"><div class="text-gold font-bold text-lg">03</div><p class="mt-2 font-semibold">$49/month founding rate</p></div>
+          <div class="rounded-[14px] border border-bordergray bg-white p-5 shadow-sm"><div class="text-gold font-bold text-lg">04</div><p class="mt-2 font-semibold">Lifetime rate lock while continuously subscribed and in good standing</p></div>
+          <div class="rounded-[14px] border border-bordergray bg-white p-5 shadow-sm"><div class="text-gold font-bold text-lg">05</div><p class="mt-2 font-semibold">Weekly founder consultation opportunity after complimentary access for active paid partners</p></div>
+          <div class="rounded-[14px] border border-bordergray bg-white p-5 shadow-sm"><div class="text-gold font-bold text-lg">06</div><p class="mt-2 font-semibold">Priority consideration for feedback and selected early features</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================== -->
+    <!-- TIMELINE: 8-step application journey                                     -->
+    <!-- ======================================================================== -->
+    <section data-section="timeline" class="bg-white">
+      <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <h2 class="font-heading text-3xl font-semibold">Application Timeline</h2>
+        <div class="mt-6 grid gap-4 lg:grid-cols-2">
+          <div class="p-4 border border-bordergray rounded-md">
+            <h3 class="text-lg font-semibold">1. Review the program terms</h3>
+          </div>
+          <div class="p-4 border border-bordergray rounded-md">
+            <h3 class="text-lg font-semibold">2. Complete the application form</h3>
+          </div>
+          <div class="p-4 border border-bordergray rounded-md">
+            <h3 class="text-lg font-semibold">3. Submit your creator profile and use case</h3>
+          </div>
+          <div class="p-4 border border-bordergray rounded-md">
+            <h3 class="text-lg font-semibold">4. Founder reviews your application manually</h3>
+          </div>
+          <div class="p-4 border border-bordergray rounded-md">
+            <h3 class="text-lg font-semibold">5. If approved, you receive confirmation</h3>
+          </div>
+          <div class="p-4 border border-bordergray rounded-md">
+            <h3 class="text-lg font-semibold">6. Month 1 begins at no charge</h3>
+          </div>
+          <div class="p-4 border border-bordergray rounded-md">
+            <h3 class="text-lg font-semibold">7. Complete your agreed public content and feedback</h3>
+          </div>
+          <div class="p-4 border border-bordergray rounded-md">
+            <h3 class="text-lg font-semibold">8. Continue on the locked-in $49 founding rate if approved and in good standing</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================== -->
+    <!-- APPLICATION FORM: Single premium submission form                         -->
+    <!-- Notes: This is the only form on the page. Signature and PDF are here     -->
+    <!-- ======================================================================== -->
+    <section data-section="application" class="bg-softgray">
+      <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+          <p class="text-xs font-semibold uppercase tracking-[0.28em] text-gold">Application Form</p>
+          <h2 class="font-heading text-3xl font-semibold mt-2">Founding Creator Review</h2>
+          <p class="mt-3 text-bodygray leading-7">This application does not charge your card and does not automatically start a subscription.</p>
+        </div>
+
+        <form id="applicationForm" class="mt-6 space-y-6">
+          <input type="hidden" name="submission_timestamp" />
+          <input type="hidden" name="application_id" />
+          <input type="hidden" name="status" value="Application Submitted" />
+          <input type="hidden" name="founder_approval" value="Pending" />
+          <input type="hidden" name="locked_monthly_rate" value="49 USD/month" />
+          <input type="hidden" name="agreement_version" value="MFC-2026-07-v2" />
+          <input type="hidden" name="pdf_generated" value="No" />
+          <input type="hidden" name="contactName" />
+          <input type="hidden" name="contactEmail" />
+          <input type="hidden" name="contactPhone" />
+          <input type="hidden" name="signature_data" />
+          <input type="hidden" name="signed_date" />
+          <input type="hidden" name="user_agent" />
+          <input type="hidden" name="ip_address" />
+
+          <div class="rounded-[14px] border border-bordergray bg-white shadow-sm overflow-hidden">
+            <div class="bg-nearblack px-5 py-4 text-white font-semibold">Step 1 Profile</div>
+            <div class="grid gap-4 p-5 md:grid-cols-2">
+              <label class="block"><span class="text-sm font-medium">Full Legal Name *</span><input name="full_legal_name" required class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+              <label class="block"><span class="text-sm font-medium">Preferred Name</span><input name="preferred_name" class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+              <label class="block"><span class="text-sm font-medium">Email *</span><input name="email" type="email" required class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+              <label class="block"><span class="text-sm font-medium">Phone</span><input name="phone" type="tel" class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+              <label class="block"><span class="text-sm font-medium">Country *</span><input name="country" required class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+              <label class="block"><span class="text-sm font-medium">City</span><input name="city" class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+              <label class="block md:col-span-2"><span class="text-sm font-medium">Company / Brand</span><input name="company_brand" class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+              <label class="block"><span class="text-sm font-medium">Role *</span><select name="role" required class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3"><option value="">Select one</option><option>Content Creator</option><option>Freelancer</option><option>Agency Owner</option><option>Consultant or Coach</option><option>Educator</option><option>Developer or Automation Builder</option><option>Service Business Owner</option><option>Influencer or Community Leader</option><option>Other</option></select></label>
+              <label class="block"><span class="text-sm font-medium">Primary Platform *</span><select name="primary_platform" required class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3"><option value="">Select one</option><option>YouTube</option><option>Facebook</option><option>Instagram</option><option>TikTok</option><option>LinkedIn</option><option>Blog or Newsletter</option><option>Community</option><option>Other</option></select></label>
+              <label class="block md:col-span-2"><span class="text-sm font-medium">Primary Platform URL *</span><input name="primary_platform_url" required type="url" class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+              <label class="block md:col-span-2"><span class="text-sm font-medium">Additional Channels</span><input name="additional_channels" class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+            </div>
+          </div>
+
+          <div class="rounded-[14px] border border-bordergray bg-white shadow-sm overflow-hidden">
+            <div class="bg-nearblack px-5 py-4 text-white font-semibold">Step 2 Creator Details</div>
+            <div class="grid gap-4 p-5 md:grid-cols-2">
+              <label class="block"><span class="text-sm font-medium">Audience Size *</span><select name="audience_size" required class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3"><option value="">Select one</option><option>Under 1,000</option><option>1,000–5,000</option><option>5,001–20,000</option><option>20,001–100,000</option><option>100,000+</option><option>Client or community audience without public follower count</option></select></label>
+              <label class="block"><span class="text-sm font-medium">Average Monthly Views</span><input name="average_monthly_views" class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+              <div class="md:col-span-2">
+                <p class="text-sm font-medium">Primary Content Topics *</p>
+                <div class="mt-2 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                  <label class="flex items-center gap-2 rounded-xl border border-bordergray bg-white px-4 py-2 text-sm"><input type="checkbox" name="primary_content_topics" value="AI" class="mt-1" /> AI</label>
+                  <label class="flex items-center gap-2 rounded-xl border border-bordergray bg-white px-4 py-2 text-sm"><input type="checkbox" name="primary_content_topics" value="Automation" class="mt-1" /> Automation</label>
+                  <label class="flex items-center gap-2 rounded-xl border border-bordergray bg-white px-4 py-2 text-sm"><input type="checkbox" name="primary_content_topics" value="Marketing" class="mt-1" /> Marketing</label>
+                  <label class="flex items-center gap-2 rounded-xl border border-bordergray bg-white px-4 py-2 text-sm"><input type="checkbox" name="primary_content_topics" value="Business" class="mt-1" /> Business</label>
+                  <label class="flex items-center gap-2 rounded-xl border border-bordergray bg-white px-4 py-2 text-sm"><input type="checkbox" name="primary_content_topics" value="SaaS" class="mt-1" /> SaaS</label>
+                  <label class="flex items-center gap-2 rounded-xl border border-bordergray bg-white px-4 py-2 text-sm"><input type="checkbox" name="primary_content_topics" value="Education" class="mt-1" /> Education</label>
+                  <label class="flex items-center gap-2 rounded-xl border border-bordergray bg-white px-4 py-2 text-sm"><input type="checkbox" name="primary_content_topics" value="Development" class="mt-1" /> Development</label>
+                  <label class="flex items-center gap-2 rounded-xl border border-bordergray bg-white px-4 py-2 text-sm"><input type="checkbox" name="primary_content_topics" value="Creator Economy" class="mt-1" /> Creator Economy</label>
+                  <label class="flex items-center gap-2 rounded-xl border border-bordergray bg-white px-4 py-2 text-sm"><input type="checkbox" name="primary_content_topics" value="Other" class="mt-1" /> Other</label>
+                </div>
+              </div>
+              <div class="grid gap-3 md:col-span-2 md:grid-cols-2">
+                <label class="block"><span class="text-sm font-medium">Have you previously reviewed software? *</span><select name="previous_software_reviews" required class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3"><option value="">Select one</option><option>Yes</option><option>No</option></select></label>
+                <label class="block"><span class="text-sm font-medium">Have you created AI-related content? *</span><select name="previous_ai_content" required class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3"><option value="">Select one</option><option>Yes</option><option>No</option></select></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-[14px] border border-bordergray bg-white shadow-sm overflow-hidden">
+            <div class="bg-nearblack px-5 py-4 text-white font-semibold">Step 3 Use Case</div>
+            <div class="grid gap-4 p-5">
+              <label class="block"><span class="text-sm font-medium">Planned MARCOR Use Case *</span><textarea name="planned_marcor_use_case" required rows="4" class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3"></textarea></label>
+              <label class="block"><span class="text-sm font-medium">Proposed Public Content *</span><select name="proposed_public_content" required class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3"><option value="">Select one</option><option>Honest Review</option><option>Tutorial or Walkthrough</option><option>Real Use Case Demonstration</option><option>Case Study</option><option>Comparison</option><option>Build-in-Public Video</option><option>Written Article or Newsletter</option><option>Live Demonstration</option><option>Other</option></select></label>
+              <label class="block"><span class="text-sm font-medium">Expected Publish Date *</span><input name="expected_publish_date" type="date" required class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+              <label class="block"><span class="text-sm font-medium">Reason for Applying *</span><textarea name="reason_for_applying" required rows="4" class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3"></textarea></label>
+            </div>
+
+            <details id="agreementDisclosure" class="border-t border-bordergray bg-softgray">
+              <summary class="cursor-pointer px-5 py-4 font-semibold text-nearblack">
+                Read Full MARCOR Terms &amp; Collaboration Agreement
+              </summary>
+              <div class="px-5 pb-5 text-sm leading-7 text-zinc-700">
+                <p class="mb-4 text-bodygray">Please review these terms before confirming your acknowledgements.</p>
+                <div class="space-y-3">
+                  <p><strong>1. Parties and purpose.</strong> This agreement is between MARCOR and the applicant for the purpose of a limited founding creator collaboration.</p>
+                  <p><strong>2. Application and manual approval by founder Dijae Dadula.</strong> Admission is discretionary and requires manual review and approval.</p>
+                  <p><strong>3. Public plan $79/month and approved offer.</strong> The public plan is $79/month with 7-day access shown at signup; approved creators may receive the founder collaboration offer instead.</p>
+                  <p><strong>4. Month 2 eligibility.</strong> Month 2 complimentary access is conditioned on completion of the first-month content and feedback requirements and MARCOR approval.</p>
+                  <p><strong>5. Lifetime $49 rate lock while continuously active and in good standing.</strong> The founding rate may remain locked at $49/month only while the creator stays continuously subscribed and in good standing.</p>
+                  <p><strong>6. Scope exclusions for add-ons, usage, taxes, premium services, and future products.</strong> The founding rate excludes add-ons, overages, taxes, third-party costs, premium services, and any products not expressly included.</p>
+                  <p><strong>7. Creator obligations.</strong> The creator agrees to use MARCOR honestly, provide the requested public content, and share useful feedback in a timely manner.</p>
+                  <p><strong>8. No required positive review.</strong> MARCOR does not require a positive review, only truthful and fair reporting based on real use.</p>
+                  <p><strong>9. No cash compensation, affiliate commission, referral commission, or revenue share.</strong> The creator receives no commission, revenue share, or cash payment under this collaboration.</p>
+                  <p><strong>10. MARCOR intellectual property and brand use.</strong> MARCOR retains all rights in its trademarks, logos, products, and materials; limited brand use must be approved and accurate.</p>
+                  <p><strong>11. Creator content ownership and optional repost permission.</strong> The creator owns original content and may grant MARCOR optional permission to repost or reference it with attribution.</p>
+                  <p><strong>12. Confidentiality and responsible use.</strong> Non-public information, access details, and private communications must be handled responsibly and not disclosed without permission.</p>
+                  <p><strong>13. Weekly founder consultation after complimentary months for active paid partners, subject to scheduling, availability, and fair use; not unlimited DFY or emergency support.</strong> Consultation access is not unlimited implementation, not done-for-you service, and not emergency support.</p>
+                  <p><strong>14. No employment, agency, franchise, joint venture, reseller appointment, or authority to bind MARCOR.</strong> The creator acts independently and has no authority to legally bind MARCOR.</p>
+                  <p><strong>15. No guarantees.</strong> MARCOR makes no guarantee of approval, audience results, revenue, platform performance, or publication outcomes.</p>
+                  <p><strong>16. Suspension and termination.</strong> MARCOR may suspend or end access for breach, misuse, fraud, harm, or other material concerns.</p>
+                  <p><strong>17. Platform changes.</strong> MARCOR may update features, pricing, policies, or availability as the platform evolves.</p>
+                  <p><strong>18. Privacy and records.</strong> MARCOR may retain application records, signatures, timestamps, and related communications for operational and legal purposes.</p>
+                  <p><strong>19. Electronic signature and records.</strong> The applicant consents to electronic execution, recordkeeping, and document delivery.</p>
+                  <p><strong>20. Good-faith resolution.</strong> The parties agree to attempt good-faith resolution of questions or concerns before escalation.</p>
+                  <p><strong>21. Entire agreement and changes.</strong> This document, together with any written approval, is the full understanding regarding the founding creator collaboration.</p>
+                  <p><strong>22. Severability and waiver.</strong> If any part is unenforceable, the remainder remains effective, and any waiver must be specific and in writing.</p>
+                  <p><strong>23. Contact and notices.</strong> Notices may be sent through MARCOR support or the platform at <a href="https://studio.marcor.app" target="_blank" rel="noopener" class="underline">https://studio.marcor.app</a>.</p>
+                </div>
+              </div>
+            </details>
+
+            <div class="border-t border-bordergray p-5">
+              <div class="mb-4 rounded-[14px] border border-bordergray bg-white p-4">
+                <div class="text-sm font-semibold uppercase tracking-[0.22em] text-nearblack">Step 4 Agreement &amp; Signature</div>
+                <p class="mt-2 text-sm text-bodygray">Complete the acknowledgements, sign below, and submit your application for manual founder review.</p>
+              </div>
+
+              <div class="grid gap-4 md:grid-cols-2">
+                <label class="flex items-start gap-3 rounded-xl border border-bordergray bg-white p-4"><input type="checkbox" name="agreement_acknowledged" class="mt-1" required><span class="text-sm">I have read and agree to the full MARCOR Terms &amp; Collaboration Agreement.</span></label>
+                <label class="flex items-start gap-3 rounded-xl border border-bordergray bg-white p-4"><input type="checkbox" name="no_compensation_acknowledged" class="mt-1" required><span class="text-sm">I understand there is no cash compensation, affiliate commission, referral commission, or revenue share.</span></label>
+                <label class="flex items-start gap-3 rounded-xl border border-bordergray bg-white p-4"><input type="checkbox" name="founder_approval_acknowledged" class="mt-1" required><span class="text-sm">I understand approval is manual and not automatic.</span></label>
+                <label class="flex items-start gap-3 rounded-xl border border-bordergray bg-white p-4"><input type="checkbox" name="founding_rate_acknowledged" class="mt-1" required><span class="text-sm">I understand the $49 rate applies only after approval and while in good standing.</span></label>
+                <label class="flex items-start gap-3 rounded-xl border border-bordergray bg-white p-4"><input type="checkbox" name="electronic_signature_consent" class="mt-1" required><span class="text-sm">I consent to electronic signature and recordkeeping.</span></label>
+                <label class="flex items-start gap-3 rounded-xl border border-bordergray bg-white p-4"><input type="checkbox" name="accuracy_acknowledged" class="mt-1" required><span class="text-sm">I confirm the information provided is accurate and complete.</span></label>
+                <label class="flex items-start gap-3 rounded-xl border border-bordergray bg-white p-4"><input type="checkbox" name="responsible_use_acknowledged" class="mt-1" required><span class="text-sm">I agree to use MARCOR responsibly and ethically.</span></label>
+                <label class="flex items-start gap-3 rounded-xl border border-bordergray bg-white p-4"><input type="checkbox" name="content_permission" class="mt-1"><span class="text-sm">Optional: I allow MARCOR to repost or reference my content with attribution.</span></label>
+              </div>
+
+              <div class="mt-5 grid gap-4 md:grid-cols-2">
+                <label class="block"><span class="text-sm font-medium">Signer Name *</span><input id="signerName" name="signer_name" required class="mt-2 w-full rounded-xl border border-bordergray px-4 py-3" /></label>
+                <div class="block">
+                  <span class="text-sm font-medium">Signed Date</span>
+                  <input id="signedDateDisplay" readonly class="mt-2 w-full rounded-xl border border-bordergray bg-zinc-50 px-4 py-3 text-zinc-600" />
+                </div>
+              </div>
+
+              <div class="mt-5 rounded-[14px] border border-bordergray bg-white p-4">
+                <div class="flex items-center justify-between gap-3">
+                  <div>
+                    <p class="text-sm font-semibold">Signature *</p>
+                    <p class="text-xs text-bodygray">Draw with mouse or touch. Use Clear Signature to reset.</p>
+                  </div>
+                  <button type="button" id="clearSignature" class="rounded-full border border-bordergray px-4 py-2 text-sm font-semibold hover:bg-softgray">Clear Signature</button>
+                </div>
+                <canvas id="signaturePad" class="sig-canvas mt-4 h-44 w-full rounded-xl border border-bordergray bg-white"></canvas>
+              </div>
+
+              <p class="mt-4 text-sm text-bodygray">Small note: This application does not charge your card and does not automatically start a subscription.</p>
+              <div id="formMessage" class="mt-4 hidden rounded-xl border px-4 py-3 text-sm"></div>
+              <div class="mt-5 flex flex-col sm:flex-row gap-3">
+                <button type="submit" id="submitBtn" class="rounded-full bg-gold px-6 py-3.5 font-semibold text-nearblack shadow-premium hover:bg-deepgold transition">Sign &amp; Submit for Founder Review</button>
+                <button type="button" data-scroll-to-agreement class="rounded-full border border-bordergray px-6 py-3.5 font-semibold hover:bg-softgray transition">Review Program Terms</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ======================================================================== -->
+    <!-- SUCCESS PANEL: Hidden until successful submission                        -->
+    <!-- ======================================================================== -->
+    <section data-section="success-panel" id="successPanel" class="hidden bg-nearblack text-white">
+      <div class="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <div class="rounded-[14px] border border-gold/30 bg-charcoal p-6 shadow-premium">
+          <p class="text-xs uppercase tracking-[0.28em] text-gold">Submission Complete</p>
+          <h2 class="mt-2 font-heading text-3xl font-semibold">Congratulations — Your Application Is Complete.</h2>
+          <p class="mt-3 text-zinc-300">Status: <span class="text-gold font-semibold">Pending Founder Approval</span></p>
+          <p class="mt-2 text-zinc-300">Application ID: <span id="successAppId" class="font-mono text-white"></span></p>
+          <p class="mt-4 text-zinc-300">No payment or subscription has started. Creating your MARCOR account does not activate the free month or $49 founding rate until written founder approval is issued.</p>
+          <div class="mt-6 flex flex-col sm:flex-row gap-3">
+            <a href="https://studio.marcor.app" target="_blank" rel="noopener" class="rounded-full bg-gold px-6 py-3.5 font-semibold text-nearblack text-center">Create Your MARCOR Account</a>
+            <button type="button" id="downloadPdfBtn" class="rounded-full border border-white/15 px-6 py-3.5 font-semibold text-white hover:bg-white/5">Download Signed A4 PDF</button>
+            <button type="button" data-scroll-to-agreement class="rounded-full border border-white/15 px-6 py-3.5 font-semibold text-white hover:bg-white/5">Review Program Terms</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================== -->
+    <!-- FAQ: Premium accordion                                                    -->
+    <!-- ======================================================================== -->
+    <section data-section="faq" class="bg-softgray">
+      <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <h2 class="font-heading text-3xl font-semibold">Frequently Asked Questions</h2>
+        <div class="mt-6 space-y-3">
+          
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">Is this paid sponsorship or affiliate program?</summary><p class="mt-3 text-bodygray">No. This is a manual founder collaboration with no commission, referral fee, affiliate payout, or revenue share.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">Do I automatically receive one free month after signing?</summary><p class="mt-3 text-bodygray">No. Complimentary access begins only after founder approval.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">Why does signup show $79/month and seven-day access?</summary><p class="mt-3 text-bodygray">That is the public plan display. Approved founding creators may receive adjusted terms after manual review.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">How do I unlock Month 2?</summary><p class="mt-3 text-bodygray">Month 2 is conditional on completing the agreed first-month content and feedback requirements and receiving approval.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">Must the review be positive?</summary><p class="mt-3 text-bodygray">No. MARCOR only expects a truthful, fair, firsthand account.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">What does the lifetime price lock mean?</summary><p class="mt-3 text-bodygray">If you remain continuously subscribed and in good standing, the founding partner rate is intended to stay locked at $49/month.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">What happens if I cancel or fail payment?</summary><p class="mt-3 text-bodygray">The rate lock and founder partner status may be lost if continuity is broken or payment fails.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">Are add-ons included forever?</summary><p class="mt-3 text-bodygray">No. Add-ons, usage overages, taxes, premium services, and future products are excluded unless specifically stated otherwise.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">When do weekly one-on-one sessions start?</summary><p class="mt-3 text-bodygray">They may become available after the complimentary months for active paid partners, subject to scheduling and availability.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">Is weekly support done-for-you implementation?</summary><p class="mt-3 text-bodygray">No. It is consultation and guidance only, not unlimited done-for-you implementation or emergency support.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">Can MARCOR reuse my content?</summary><p class="mt-3 text-bodygray">Only if you give optional permission. Otherwise, you keep ownership of your original content.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">Will I receive a signed PDF copy?</summary><p class="mt-3 text-bodygray">Yes. A signed A4 PDF is generated after successful submission and can be downloaded again from the success panel.</p></details>
+          <details class="rounded-[14px] border border-bordergray bg-white p-5"><summary class="font-semibold cursor-pointer">Who gives final approval?</summary><p class="mt-3 text-bodygray">Final approval is made manually by founder Dijae Dadula.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================================ -->
+  <!-- FOOTER: Official brand reference and legal note                              -->
+  <!-- ============================================================================ -->
+  <footer data-section="footer" class="border-t border-bordergray bg-nearblack text-white">
+    <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <div class="flex items-center gap-3">
+        <img src="https://paymegpt.com/objects/public/white-label-logos/69/1776681317645_9362.jpg" alt="MARCOR official logo" class="h-9 w-auto rounded-sm bg-white p-1" />
+        <div>
+          <div class="font-heading font-semibold">MARCOR Founding Creator Program</div>
+          <a href="https://studio.marcor.app" target="_blank" rel="noopener" class="text-sm text-gold hover:underline">https://studio.marcor.app</a>
+        </div>
+      </div>
+      <p class="text-sm text-zinc-400">© <span id="currentYear"></span> MARCOR. Founding collaboration subject to manual approval and written confirmation.</p>
+    </div>
+  </footer>
+
+  <script>
+    // ===== UTILITY: Common selectors and state =====
+    const form = document.getElementById('applicationForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const messageBox = document.getElementById('formMessage');
+    const successPanel = document.getElementById('successPanel');
+    const successAppId = document.getElementById('successAppId');
+    const downloadPdfBtn = document.getElementById('downloadPdfBtn');
+    const clearSignatureBtn = document.getElementById('clearSignature');
+    const canvas = document.getElementById('signaturePad');
+    const ctx = canvas.getContext('2d');
+    let drawing = false, hasSignature = false, pdfDataUrl = '';
+
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    document.querySelectorAll('[data-scroll-to-form]').forEach(btn => btn.addEventListener('click', () => form.scrollIntoView({behavior:'smooth', block:'start'})));
+    document.querySelectorAll('[data-scroll-to-agreement]').forEach(btn => btn.addEventListener('click', () => {
+      document.getElementById('agreementDisclosure').open = true;
+      document.getElementById('agreementDisclosure').scrollIntoView({behavior:'smooth', block:'start'});
+    }));
+
+    // ===== CANVAS RESIZE =====
+    function resizeCanvas() {
+      const ratio = Math.max(window.devicePixelRatio || 1, 1);
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = rect.width * ratio;
+      canvas.height = rect.height * ratio;
+      ctx.setTransform(ratio,0,0,ratio,0,0);
+      ctx.lineWidth = 2.2;
+      ctx.lineCap = 'round';
+      ctx.strokeStyle = '#0A0A0A';
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    function getPos(e) {
+      const rect = canvas.getBoundingClientRect();
+      const point = e.touches ? e.touches[0] : e;
+      return { x: point.clientX - rect.left, y: point.clientY - rect.top };
+    }
+    function startDraw(e){ drawing=true; const p=getPos(e); ctx.beginPath(); ctx.moveTo(p.x,p.y); e.preventDefault(); }
+    function draw(e){ if(!drawing) return; const p=getPos(e); ctx.lineTo(p.x,p.y); ctx.stroke(); hasSignature = true; e.preventDefault(); }
+    function endDraw(){ drawing=false; }
+    canvas.addEventListener('mousedown', startDraw); canvas.addEventListener('mousemove', draw); window.addEventListener('mouseup', endDraw);
+    canvas.addEventListener('touchstart', startDraw, {passive:false}); canvas.addEventListener('touchmove', draw, {passive:false}); canvas.addEventListener('touchend', endDraw);
+    clearSignatureBtn.addEventListener('click', () => { ctx.clearRect(0,0,canvas.width,canvas.height); hasSignature = false; });
+
+    function showMessage(type, text) {
+      messageBox.className = 'mt-4 rounded-xl border px-4 py-3 text-sm ' + (type === 'error' ? 'border-red-200 bg-red-50 text-red-700' : 'border-emerald-200 bg-emerald-50 text-emerald-700');
+      messageBox.textContent = text;
+      messageBox.classList.remove('hidden');
+    }
+
+    async function lookupIp() {
+      try {
+        const r = await fetch('https://api.ipify.org?format=json');
+        const d = await r.json();
+        return d.ip || '';
+      } catch { return ''; }
+    }
+
+    // ===== PDF GENERATOR =====
+    // Purpose: Build the signed A4 PDF after successful submission
+    async function generatePdf(data) {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF({ orientation:'portrait', unit:'mm', format:'a4' });
+      const margin = 15, width = 180, lineH = 6;
+      let y = margin;
+      const addFooter = (pageNum) => {
+        doc.setFontSize(9);
+        doc.setTextColor(120);
+        doc.text(`MARCOR Founding Creator Program — Page ${pageNum}`, margin, 290);
+      };
+      const addHeader = () => {
+        doc.setFontSize(13); doc.setTextColor(10); doc.setFont('helvetica','bold');
+        doc.text('MARCOR Founding Creator Program Application', margin, y);
+        y += 8;
+        doc.setFontSize(9); doc.setFont('helvetica','normal');
+        doc.text(`Application ID: ${data.application_id}`, margin, y);
+        y += 8;
+      };
+      const addLine = (label, value) => { doc.setFont('helvetica','bold'); doc.text(`${label}:`, margin, y); doc.setFont('helvetica','normal'); const lines = doc.splitTextToSize(String(value || '-'), width-45); doc.text(lines, margin+45, y); y += Math.max(lines.length*lineH, lineH); };
+      const newPage = () => { addFooter(doc.internal.getNumberOfPages()); doc.addPage(); y = margin; addHeader(); };
+      addHeader();
+      const fields = [
+        ['Status', data.status], ['Founder Approval', data.founder_approval], ['Locked Monthly Rate', data.locked_monthly_rate],
+        ['Submission Timestamp', data.submission_timestamp], ['Signed Date', data.signed_date], ['Legal Name', data.full_legal_name],
+        ['Preferred Name', data.preferred_name], ['Email', data.email], ['Phone', data.phone], ['Country', data.country],
+        ['City', data.city], ['Company/Brand', data.company_brand], ['Role', data.role], ['Primary Platform', data.primary_platform],
+        ['Primary Platform URL', data.primary_platform_url], ['Additional Channels', data.additional_channels], ['Audience Size', data.audience_size],
+        ['Average Monthly Views', data.average_monthly_views], ['Previous Software Reviews', data.previous_software_reviews], ['Previous AI Content', data.previous_ai_content],
+        ['Planned MARCOR Use Case', data.planned_marcor_use_case], ['Proposed Public Content', data.proposed_public_content], ['Expected Publish Date', data.expected_publish_date],
+        ['Reason for Applying', data.reason_for_applying], ['Signer Name', data.signer_name]
+      ];
+      fields.forEach(([l,v]) => { if (y > 270) newPage(); addLine(l, v); y += 1; });
+      y += 2; if (y > 250) newPage();
+      doc.setFont('helvetica','bold'); doc.text('Acknowledgements', margin, y); y += 8;
+      Object.entries(data.acknowledgements).forEach(([k,v]) => { if (y > 270) newPage(); addLine(k, v ? 'Yes' : 'No'); y += 1; });
+      y += 4; if (y > 240) newPage();
+      doc.setFont('helvetica','bold'); doc.text('Signature', margin, y); y += 8;
+      if (data.signature_data) doc.addImage(data.signature_data, 'PNG', margin, y, 70, 30);
+      y += 38; addLine('Platform Link', 'https://studio.marcor.app');
+      newPage();
+      doc.setFont('helvetica','bold'); doc.text('Full Terms and Collaboration Agreement', margin, y); y += 8;
+      data.terms.forEach((t, idx) => {
+        const txt = `${idx+1}. ${t}`;
+        const lines = doc.splitTextToSize(txt, width);
+        if (y + lines.length*5 > 275) newPage();
+        doc.setFont('helvetica','normal'); doc.text(lines, margin, y); y += lines.length*5 + 2;
+      });
+      addFooter(doc.internal.getNumberOfPages());
+      return doc.output('datauristring');
+    }
+
+    function buildTerms() {
+      return [
+        'Parties and purpose. This agreement is between MARCOR and the applicant for a limited founding creator collaboration.',
+        'Application and manual approval by founder Dijae Dadula. Admission is discretionary and requires manual review and approval.',
+        'Public plan $79/month and approved offer. The public plan is $79/month with 7-day access shown at signup; approved creators may receive the founder collaboration offer instead.',
+        'Month 2 eligibility. Month 2 complimentary access is conditioned on completion of the first-month content and feedback requirements and MARCOR approval.',
+        'Lifetime $49 rate lock while continuously active and in good standing. The founding rate may remain locked at $49/month only while the creator stays continuously subscribed and in good standing.',
+        'Scope exclusions for add-ons, usage, taxes, premium services, and future products. The founding rate excludes add-ons, overages, taxes, third-party costs, premium services, and any products not expressly included.',
+        'Creator obligations. The creator agrees to use MARCOR honestly, provide the requested public content, and share useful feedback in a timely manner.',
+        'No required positive review. MARCOR does not require a positive review, only truthful and fair reporting based on real use.',
+        'No cash compensation, affiliate commission, referral commission, or revenue share. The creator receives no commission, revenue share, or cash payment under this collaboration.',
+        'MARCOR intellectual property and brand use. MARCOR retains all rights in its trademarks, logos, products, and materials; limited brand use must be approved and accurate.',
+        'Creator content ownership and optional repost permission. The creator owns original content and may grant MARCOR optional permission to repost or reference it with attribution.',
+        'Confidentiality and responsible use. Non-public information, access details, and private communications must be handled responsibly and not disclosed without permission.',
+        'Weekly founder consultation after complimentary months for active paid partners, subject to scheduling, availability, and fair use; not unlimited DFY or emergency support. Consultation access is not unlimited implementation, not done-for-you service, and not emergency support.',
+        'No employment, agency, franchise, joint venture, reseller appointment, or authority to bind MARCOR. The creator acts independently and has no authority to legally bind MARCOR.',
+        'No guarantees. MARCOR makes no guarantee of approval, audience results, revenue, platform performance, or publication outcomes.',
+        'Suspension and termination. MARCOR may suspend or end access for breach, misuse, fraud, harm, or other material concerns.',
+        'Platform changes. MARCOR may update features, pricing, policies, or availability as the platform evolves.',
+        'Privacy and records. MARCOR may retain application records, signatures, timestamps, and related communications for operational and legal purposes.',
+        'Electronic signature and records. The applicant consents to electronic execution, recordkeeping, and document delivery.',
+        'Good-faith resolution. The parties agree to attempt good-faith resolution of questions or concerns before escalation.',
+        'Entire agreement and changes. This document, together with any written approval, is the full understanding regarding the founding creator collaboration.',
+        'Severability and waiver. If any part is unenforceable, the remainder remains effective, and any waiver must be specific and in writing.',
+        'Contact and notices. Notices may be sent through MARCOR support or the platform at https://studio.marcor.app.'
+      ];
+    }
+
+    async function submitToWebhook(payload) {
+      return fetch('https://studio.marcor.app/api/webhooks/flow/4342/e29afabdeae2073a56b76453441beaa788429df03707d6e43c14515bf8cdad17', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).then(r => r.json());
+    }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (form.dataset.submitted === 'true') return;
+
+      const fd = new FormData(form);
+      const topics = ['AI','Automation','Marketing','Business','SaaS','Education','Development','Creator Economy','Other'].filter(t => fd.getAll('primary_content_topics').includes(t));
+      if (!topics.length) return showMessage('error', 'Please select at least one primary content topic.');
+      if (!hasSignature) return showMessage('error', 'Please provide a signature before submitting.');
+      const requiredChecks = ['agreement_acknowledged','no_compensation_acknowledged','founder_approval_acknowledged','founding_rate_acknowledged','electronic_signature_consent','accuracy_acknowledged','responsible_use_acknowledged'];
+      if (requiredChecks.some(name => !fd.get(name))) return showMessage('error', 'Please complete all required acknowledgements.');
+      if (!fd.get('signer_name')) return showMessage('error', 'Please enter the signer name.');
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+
+      const applicationId = `MFC-${new Date().toISOString().slice(0,10).replace(/-/g,'')}-${Math.random().toString(36).slice(2,8).toUpperCase()}`;
+      const timestamp = new Date().toISOString();
+      const ip = await lookupIp();
+      const signedDate = new Date().toLocaleDateString('en-GB', { day:'2-digit', month:'short', year:'numeric' });
+      const signatureData = canvas.toDataURL('image/png');
+      const payload = {
+        contactEmail: fd.get('email'),
+        contactName: fd.get('full_legal_name'),
+        contactPhone: fd.get('phone') || undefined,
+        submission_timestamp: timestamp,
+        application_id: applicationId,
+        status: 'Application Submitted',
+        founder_approval: 'Pending',
+        locked_monthly_rate: '49 USD/month',
+        agreement_version: 'MFC-2026-07-v2',
+        pdf_generated: 'No',
+        contactName: fd.get('full_legal_name'),
+        contactEmail: fd.get('email'),
+        contactPhone: fd.get('phone') || undefined,
+        signature_data: signatureData,
+        signed_date: signedDate,
+        user_agent: navigator.userAgent,
+        ip_address: ip || undefined,
+        full_legal_name: fd.get('full_legal_name'),
+        preferred_name: fd.get('preferred_name') || '',
+        email: fd.get('email'),
+        phone: fd.get('phone') || '',
+        country: fd.get('country'),
+        city: fd.get('city') || '',
+        company_brand: fd.get('company_brand') || '',
+        role: fd.get('role'),
+        primary_platform: fd.get('primary_platform'),
+        primary_platform_url: fd.get('primary_platform_url'),
+        additional_channels: fd.get('additional_channels') || '',
+        audience_size: fd.get('audience_size'),
+        average_monthly_views: fd.get('average_monthly_views') || '',
+        primary_content_topics: fd.getAll('primary_content_topics'),
+        previous_software_reviews: fd.get('previous_software_reviews'),
+        previous_ai_content: fd.get('previous_ai_content'),
+        planned_marcor_use_case: fd.get('planned_marcor_use_case'),
+        proposed_public_content: fd.get('proposed_public_content'),
+        expected_publish_date: fd.get('expected_publish_date'),
+        reason_for_applying: fd.get('reason_for_applying'),
+        signer_name: fd.get('signer_name'),
+        acknowledgements: Object.fromEntries(requiredChecks.concat(['content_permission']).map(k => [k, !!fd.get(k)])),
+        terms: buildTerms()
+      };
+
+      try {
+        const pdf = await generatePdf(payload);
+        payload.pdf_generated = 'Yes';
+        payload.pdf_data = pdf;
+        pdfDataUrl = pdf;
+        await submitToWebhook(payload);
+        form.dataset.submitted = 'true';
+        form.classList.add('hidden');
+        successPanel.classList.remove('hidden');
+        successAppId.textContent = applicationId;
+        window.scrollTo({ top: successPanel.offsetTop - 90, behavior: 'smooth' });
+        const a = document.createElement('a');
+        a.href = pdf;
+        a.download = `${applicationId}-MARCOR-Founding-Creator-Application.pdf`;
+        a.click();
+      } catch (err) {
+        showMessage('error', 'Something went wrong while submitting. Please try again.');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Sign & Submit for Founder Review';
+      }
+    });
+
+    downloadPdfBtn?.addEventListener('click', () => {
+      if (!pdfDataUrl) return;
+      const a = document.createElement('a');
+      a.href = pdfDataUrl;
+      a.download = `${successAppId.textContent || 'MARCOR-Application'}.pdf`;
+      a.click();
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
